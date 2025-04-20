@@ -1,0 +1,56 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 10px;
+}
+
+.table {
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+
+    padding: 10px;
+
+    border-right: 1px solid #ccc;
+}
+
+.column:last-child .content {
+    border-right: none;
+}
+
+.title {
+    width: 100%;
+    padding: 10px;
+
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+
+    background-color: #1976d2;
+}
+
+.task {
+    padding: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task:hover {
+    background-color: #eeeeee;
+    cursor: pointer;
+}

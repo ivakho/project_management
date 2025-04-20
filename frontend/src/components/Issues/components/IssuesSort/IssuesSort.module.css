@@ -1,0 +1,15 @@
+.sort {
+    display: grid;
+    grid-template-columns: 1fr 250px 250px;
+    gap: 10px;
+
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .sort {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
